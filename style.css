@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+h1{
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+p{
+    color: white;
+    padding: 16px 0;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    
+}
+.container{
+    padding: .5rem .5rem 0 .5rem;
+    background-color: rgba(128, 128, 128, 0.085);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    gap: 2rem;
+}
+.cards .card1, .card4, .card5{
+    background-color: white;
+    padding: 2rem;
+    border-radius: .4rem;
+    box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.047);
+}
+.card1 h1, .card4 h1, .card5 h1{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.card1 p, .card4 p, .card5 p{
+    padding: 16px 0;
+    font-style: italic;
+    color: black;
+}
+.card1 button, .card4 button, .card5 button{
+    padding: 10px 2rem;
+    /* border-color: rgb(98, 101, 234); */
+    border: 2px solid rgb(215, 217, 255);
+    background-color: transparent;
+    outline: none;
+    font-style: italic;
+    font-size: 15px;
+    border-radius: 6px;
+    color:rgb(79, 87, 243);
+}
+.card2, .card3, .card6 {
+    background-color:  rgba(98, 100, 234, 0.909);
+    padding: 2rem;
+    border-radius: .4rem;
+    box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.047);
+}
+#coln{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: start;
+}
+#coln img{
+    width: 50%;
+
+}
+button{
+    padding: 10px 2rem;
+    /* border-color: rgb(98, 101, 234); */
+    border: 2px solid rgb(215, 217, 255);
+    background-color: white;
+    outline: none;
+    font-style: italic;
+    font-size: 15px;
+    border-radius: 6px;
+    color:rgb(79, 87, 243);
+}
+button:hover{
+    background-color:rgba(98, 100, 234, 0.909);
+   color: white;
+   transition: all 0.4s ease-in-out;
+   cursor: pointer;
+   border: 2px solid white;
+
+}
+
+.card7{
+    position: relative;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .4rem;
+    background-image: url('./images/ei_1727704375910-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.047);
+}
+.card7 h1{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.card7 p{
+    padding: 16px 0;
+    font-style: italic;
+    color: black;
+}
+.card7 img{
+    /* position: absolute; */
+    top:0;
+    right: 10%;
+    width: 60%;
+    
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+        padding: .8rem;
+    }
+    #coln{
+        display:block;
+        
+        /* justify-content: space-between; */
+        /* background-color: red; */
+        /* align-items: start; */
+    }
+    #coln img{
+        width: 100%;
+    
+    }
+    .container{
+        padding: .2rem .2rem 0 .2rem;
+        background-color: rgba(128, 128, 128, 0.085);
+    }
+}
+
