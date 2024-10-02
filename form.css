@@ -1,0 +1,145 @@
+body{
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+    background: #091921;
+    font-family: Courgette;
+    color: #ffffff;
+}
+.container{
+    position: relative;
+    width:400px;
+    margin: 20vh auto 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 4px;
+}
+/* .wrapper{
+    display: flex;
+    width:450px;
+    height: 150px;
+    -webkit-border-radius:300px;
+    border-radius:300px;
+    position:relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}  */
+
+.wrapper{
+    display:flex;
+    width:450px;
+    height:150px;
+    margin-bottom:30px;
+    position:relative;
+    border-radius:300px;
+}
+ .pfr{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+ .wrapper .img{
+    width:150px;
+    height: 150px;
+    -webkit-border-radius:30%!important;
+    border-radius:50%!important;
+    cursor: pointer;
+}  
+.pfr{
+    margin-top:60px;
+    margin-left:10px;
+}
+/* .wrapper .img{
+    width:150;
+    height:150px;
+    -webkit-border-radius:30%!important;
+    border-radius:50%!important;
+    cursor: pointer;
+} */
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control input{
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    outline: 0;
+    border-radius: 4px;
+    background: transparent;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+
+}
+.form-control select{
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    outline: 0;
+    border-radius: 4px;
+    font-family: Courgette;
+    background:  rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    
+}
+
+.form-control textarea{
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    outline: 0;
+    border-radius: 4px;
+    font-family: Courgette;
+    background:  rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+}
+.form-control option{
+    font-family: Courgette;
+    background-color:#203a43;
+    border: none;
+}
+.form-control input::placeholder{
+    color: #ffffff;
+    font-family: Courgette;
+}
+#form .btn{
+    margin-top: 10px;
+    padding: 10px;
+    border: 4px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    cursor: pointer;
+    border:2px solid #fff;
+}
+.showBtn{
+    position: absolute;
+    right: 25px;
+    margin: 30px 5px;
+    cursor: pointer;
+
+}
+.showBtn1{
+    position: absolute;
+    right: 25px;
+    margin: 30px 5px;
+    cursor: pointer;
+
+}
+.form-control.success input{
+    border-color: #09c372;
+}
+.form-control.error input{
+    border-color: #ff3860;
+}
+
+.form-control.success select{
+    border-color: #09c372;
+}
+.form-control.error select{
+    border-color: #ff3860;
+}
+
+.form-control .error{
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+    margin: 5px 0;
+}
+
+
